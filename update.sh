@@ -1,5 +1,4 @@
 #!/bin/bash
-echo "systemctl restart network" >>/etc/rc.local
 cd /tmp
 wget https://raw.githubusercontent.com/chauncey5566/docker-compose.yaml/master/docker-compose.yaml
 mv -f /tmp/docker-compose.yaml /php-nginx-compose/docker-compose.yaml
